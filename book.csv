@@ -1,0 +1,11 @@
+session_id_group,session_start_url,iforest_suspiciousness_score,net_total_requests_logged,net_num_third_party_requests,net_num_unique_third_party_domains,net_num_post_to_third_party,net_num_suspicious_get_beacons_approx
+17,https://panlasangpinoy.com/chicken-bistek/,-0.185922,613,613,48,356,172
+6,https://www.foodnetwork.com/recipes/photos/5-star-pasta-recipes,-0.090383,154,154,53,52,60
+26,https://panlasangpinoy.com/sweet-and-sour-fish-fillet/,-0.058288,387,387,31,278,92
+24,https://panlasangpinoy.com/fish-stew-paksiw-na-isda-sa-gata/,-0.04975,323,323,32,220,81
+33,https://openai.com/,-0.036542,9,9,4,9,0
+21,https://panlasangpinoy.com/oven-roasted-asparagus/,-0.023877,340,340,42,217,95
+11,https://www.bonappetit.com/recipe/dill-pickle-potato-salad,-0.010652,176,176,48,60,77
+18,https://panlasangpinoy.com/filipino-chicken-ala-king/,-0.006195,302,302,36,197,77
+16,https://panlasangpinoy.com/categories/recipes/chicken-recipes/,-0.004595,181,181,51,69,57
+47,https://www.recipetineats.com/puttanesca-fish-tray-bake/,-0.000482,47,47,14,18,7

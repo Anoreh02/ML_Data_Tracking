@@ -1,0 +1,2 @@
+run_timestamp,model_filename,num_training_samples,num_features,class_0_count,class_1_count,train_accuracy_full_set,cv_mean_accuracy,cv_mean_precision,cv_mean_recall,cv_mean_f1,rf_n_estimators,rf_class_weight
+20250515_230705,trains_output\rf_model_20250515_230705.joblib,50,45,37,13,1.0,0.9800000000000001,1.0,0.9333333333333332,0.96,100,balanced
