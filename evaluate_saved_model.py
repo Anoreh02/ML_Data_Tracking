@@ -17,7 +17,25 @@ TEST_DATA_PATH = 'my_openwpm_test_set_with_features_and_labels.csv' # <-- YOU WI
 # that the model was trained on.
 # If your model object (loaded_rf_model) has '.feature_names_in_', we can use that.
 # Otherwise, you MUST provide this list manually.
-EXPECTED_FEATURES = None 
+EXPECTED_FEATURES = [
+    'num_total_events', 'num_page_visits', 'num_clicks', 'num_mouse_moves', 
+    'num_mouse_moves_to_element', 'num_errors', 'session_duration_seconds', 
+    'avg_time_between_clicks', 'total_mouse_dist_approx', 'avg_mouse_speed_approx', 
+    'num_unique_element_tags', 'entropy_element_tags', 'num_a_tags_interacted', 
+    'num_button_tags_interacted', 'num_input_tags_interacted', 'num_unique_urls_in_session', 
+    'navigated_away_from_start_url', 'num_error_click_intercepted', 
+    'num_error_no_clickables_found', 'num_error_http_read_timeout', 
+    'net_total_requests_logged', 'net_num_get_requests', 'net_num_post_requests', 
+    'net_num_put_requests', 'net_num_delete_requests', 'net_num_options_requests', 
+    'net_num_head_requests', 'net_num_third_party_requests', 'net_num_first_party_requests', 
+    'net_ratio_third_party_requests', 'net_num_unique_third_party_domains', 
+    'net_num_post_to_third_party', 'net_num_body_to_third_party', 
+    'net_num_suspicious_get_beacons_approx', 'net_num_2xx_responses', 
+    'net_num_3xx_responses', 'net_num_4xx_responses', 'net_num_5xx_responses', 
+    'net_num_json_responses', 'net_num_html_responses', 'net_num_javascript_responses', 
+    'net_num_requests_with_referer', 'net_num_distinct_referers', 
+    'net_num_cross_origin_referer', 'iforest_suspiciousness_score'
+]
 # Example if you need to set it manually:
 # EXPECTED_FEATURES = ['num_total_events', 'num_page_visits', ..., 'iforest_suspiciousness_score']
 
